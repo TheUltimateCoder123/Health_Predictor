@@ -2,7 +2,7 @@
 This helps in prediction for the various kinds of diseases such as Heart disease, Parkinson's Disease  and Diabetes. This is Being created using Machine Learning 
 and Flask.
 
-##SCREENSHOTS
+## SCREENSHOTS
 ![Screenshot 2023-02-17 164712](https://user-images.githubusercontent.com/73277254/219653693-a16ded5b-402d-436d-bfa3-1d3305d91625.png)
 
 
