@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prognosis APP</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+
+    </style>
+    
+</head>
+<body>
+ 
+    
+
+    <html>
+        <body>
+            <form action="{{ url_for('predict_heart') }}" method="post">
+                <label for="heart1">Age:</label>
+                <input type="text" name="heart1">
+                <label for="heart2">Sex:</label>
+                <input type="text" name="heart2">
+                <label for="heart3">Chest Pain Type:</label>
+                <input type="text" name="heart3">
+                <label for="heart4">Resting Blood Pressure:</label>
+                <input type="text" name="heart4">
+                <label for="heart5">Cholesterol Level:</label>
+                <input type="text" name="heart5">
+                <label for="heart6">Fasting Blood Sugar Level:</label>
+                <input type="text" name="heart6">
+                <label for="heart7">Resting ECG Results:</label>
+                <input type="text" name="heart7">
+                <label for="heart8">Maximum Heart Rate Achieved:</label>
+                <input type="text" name="heart8">
+                <label for="heart9">Exercise Induced Angina:</label>
+                <input type="text" name="heart9">
+                <label for="heart10">oldpeak:</label>
+                <input type="text" name="heart10">
+                <label for="heart11">slope:</label>
+                <input type="text" name="heart11">
+                <label for="heart12">ca:</label>
+                <input type="text" name="heart12">
+                <label for="heart13">thal:</label>
+                <input type="text" name="heart13">
+                <input type="submit">
+            </form>
+
+            <a href="/">Return to Main Page</a>
+        </body>
+    </html>
+
+</body>
+</html>

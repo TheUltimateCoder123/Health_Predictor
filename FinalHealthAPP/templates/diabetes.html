@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Prognosis APP</title>
+</head>
+<body>
+ 
+    
+
+    <html>
+        <body>
+            <form action="{{ url_for('predict_diabetes') }}" method="post">
+                <label for="heart1">Pregnancies:</label>
+                <input type="text" name="heart1">
+                <label for="heart2">Glucose:</label>
+                <input type="text" name="heart2">
+                <label for="heart3">BloodPressure:</label>
+                <input type="text" name="heart3">
+                <label for="heart4">SkinThickness:</label>
+                <input type="text" name="heart4">
+                <label for="heart5">Insulin:</label>
+                <input type="text" name="heart5">
+                <label for="heart6">BMI:</label>
+                <input type="text" name="heart6">
+                <label for="heart7">DiabetesPedigreeFunction:</label>
+                <input type="text" name="heart7">
+                <label for="heart8">Age:</label>
+                <input type="text" name="heart8">
+                <input type="submit">
+            </form>
+            <!-- Pregnancies	Glucose	BloodPressure	SkinThickness	Insulin	BMI	DiabetesPedigreeFunction	Age -->
+            <a href="/">Return to Main Page</a>
+        </body>
+    </html>
+
+</body>
+</html>

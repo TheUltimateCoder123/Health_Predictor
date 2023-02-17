@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Prognosis APP</title>
+</head>
+<body>
+ 
+    
+
+    <html>
+        <body>
+            <form action="{{ url_for('predict_park') }}" method="post">
+                <label for="heart1">MDVP:Fo(Hz)</label>
+                <input type="text" name="heart1">
+                <label for="heart2">MDVP:Fhi(Hz)</label>
+                <input type="text" name="heart2">
+                <label for="heart3">MDVP:Flo(Hz)</label>
+                <input type="text" name="heart3">
+                <label for="heart4">MDVP:Jitter(%)</label>
+                <input type="text" name="heart4">
+                <label for="heart5">MDVP:Jitter(Abs)</label>
+                <input type="text" name="heart5">
+              
+                <label for="heart6">MDVP:RAP</label>
+                <input type="text" name="heart6">
+                <label for="heart7">MDVP:PPQ</label>
+                <input type="text" name="heart7">
+                <label for="heart8">Jitter:DDP</label>
+                <input type="text" name="heart8">
+                <label for="heart9">MDVP:Shimmer</label>
+                <input type="text" name="heart9">
+                
+                <label for="heart10">MDVP:Shimmer(dB)</label>
+                <input type="text" name="heart10">
+                <label for="heart11">Shimmer:APQ3 </label>
+                <input type="text" name="heart11">
+                <label for="heart12">Shimmer:APQ5</label>
+                <input type="text" name="heart12">
+                <label for="heart13">MDVP:APQ</label>
+                <input type="text" name="heart13">
+                <label for="heart14">Shimmer:DDA</label>
+                <input type="text" name="heart14">
+                <label for="heart15">NHR</label>
+                <input type="text" name="heart15">
+                
+                <label for="heart16">HNR</label>
+                <input type="text" name="heart16">
+                <label for="heart17">RPDE</label>
+                <input type="text" name="heart17">
+                <label for="heart18">DFA</label>
+                <input type="text" name="heart18">
+                <label for="heart19">spread1</label>
+                <input type="text" name="heart19">
+                <label for="heart20">spread2</label>
+                <input type="text" name="heart20">
+
+
+                <label for="heart21">D2</label>
+                <input type="text" name="heart21">
+                <label for="heart22">PPE  </label>
+                <input type="text" name="heart22">
+
+                				  
+                
+                <input type="submit">
+            </form>
+
+            <a href="/">Return to Main Page</a>
+        </body>
+    </html>
+
+</body>
+</html>
+
+
+<!-- 197.07600,
+206.89600,
+192.05500,
+0.00289,
+0.00001,
+0.00166,
+0.00168,
+0.00498,
+0.01098,
+0.09700,
+0.00563,
+0.00680,
+0.00802,
+0.01689,
+0.00339,
+26.77500,
+0.422229,
+0.741367,
+-7.348300,
+0.177551,
+1.743867,
+0.085569 -->
+	
